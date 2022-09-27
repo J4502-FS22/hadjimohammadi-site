@@ -9,5 +9,9 @@ body {
   }
 
 h1, h2, h3{
-  
+    font-family: 'Rubik', sans-serif;
+}
+
+ul, li{
+  list-style-type: none;
 }
