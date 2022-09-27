@@ -1,17 +1,32 @@
 /* font-family: 'Cormorant Garamond', serif;
 font-family: 'Rubik', sans-serif; */
 
+html{
+  font-size: 20px;
+}
+
 body {
   width: 700px;
-  margin: 30px auto;
+  margin: 20px auto;
   background-color: #D4F2E7;
   font-family: 'Cormorant Garamond', serif;
   }
 
-h1, h2, h3{
+h1{
     font-family: 'Rubik', sans-serif;
-}
+    }
 
-ul, li{
+h2{
+  font-family: 'Rubik', sans-serif;
+  }
+
+  h3{
+    font-family: 'Rubik', sans-serif;
+  }
+
+ul{
+  list-style-type: none;
+}
+li{
   list-style-type: none;
 }
