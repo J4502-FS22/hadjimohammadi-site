@@ -11,6 +11,10 @@ body {
   font-family: 'Cormorant Garamond', serif;
   }
 
+.test-class {
+  background-color: #58889E !important;
+}
+
 main {
   width: 90%;
   max-width: 1000px;
@@ -66,7 +70,7 @@ li {
 }
 
 ol li {
-  text-transfomr: uppercase;
+  text-transform: uppercase;
 }
 
 a {
@@ -83,9 +87,13 @@ nav li, nav li a {
   align-items: center;
 }
 
+nav li a {
+  color: #FFF;
+}
+
 .active {
   background-color: #D4F2E7;
-  color: #000
+  color: #000 !important;
   padding: 1rem;
 }
 
@@ -139,7 +147,7 @@ footer {
   }
 
   .text-holder {
-    width: 70%
+    width: 70%;
   }
 
 nav ul {
@@ -149,23 +157,23 @@ nav ul {
 }
 
 nav li {
-  width: 50%
+  width: 50%;
 }
 
 }
 
 /*When the browser is at least 800px wide*/
-@media (min-wdith: 800px) {
+@media (min-width: 800px) {
 
   .image-holder {
     width: 250px;
     }
 
     .text-holder {
-      width: calc(100%-250px);
-    }
+      width: calc(100% - 250px);
+      }
 
     nav li {
-      width: 25%
+      width: 25%;
     }
   }
